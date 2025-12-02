@@ -2,8 +2,7 @@
 
 드론제어 알고리즘을 하드웨어 없이 안전한 환경에서 테스트를 진행하기 위해서 환경을 구축하게 되었다.
 
-<br>
-<\br>
+<br />
 ## Tech Stack (사용 기술) 
 - OS: windows11(WSL2 - Ubuntu22.04)
 - Simulator: Gazebo Classic 11
