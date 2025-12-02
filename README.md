@@ -68,4 +68,9 @@ git submodule update --init --recursive --force
 ```bash
 make px4_sitl gazebo
 ```
+![실행결과1](./result1.png)
+```bash
+command takeoff
+```
+![실행결과2](./result2.png)
 
