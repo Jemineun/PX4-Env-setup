@@ -50,12 +50,12 @@
 
 ### 2. PX4 Source Code Setup (Version v1.14)
 최신 main 브랜치의 불안정성과 Gazebo Classic 지원 중단 이슈를 해결하기 위해, 안정적인 v1.14.0 버전으로 환경을 구축함.
-'''bash
+\\\bash
 git clone [http://github.com/PX4/PX4-Autopilot.git](http://github.com/PX4/PX4-Autopilot.git) --recursive
 cd PX4-Autopilot
 git checkout v1.14.0
 git submodule update --init --recursive --force
-'''
+\\\
 
 ### 3. Dependencies Installation
 - ubuntu.sh 스크립트를 활용하여 툴체인 자동 설치
@@ -65,7 +65,7 @@ git submodule update --init --recursive --force
 
 
 ## Result (결과)
-'''bash
+\\\bash
 make px4_sitl gazebo
-'''
+\\\
 
