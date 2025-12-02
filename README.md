@@ -10,11 +10,14 @@
 - Firmware: PX4 Autopilot v1.14.0
 - Language: Python 3.10 (예정)
 
+<br />
 
 ## Key Features (구현 기능)
 1. SITL 환경구축: 리눅스 환경에서 툴체인 및 빌드 환경 직접 구성
 2. 자동 이착륙 제어: MAVLink 프로토콜을 이용한 Arming, Takeoff, Landing 시퀀스 구현
 3. 상태 모니터링: 비동기 통신으로 드론의 연결 상태 실시간 확인
+
+<br />
 
 ## Trouble Shooting (문제 해결 기록)
 문제1: WSL2 실행 오류 (Error: 0x80370114)
@@ -32,6 +35,7 @@
 - 원인: WSL2 환경에서의 그래픽 렌더링(GPU) 호환성 문제
 - 해결: 'export LIBGL_AlWAYS_SOFTWARE=1' 환경변수를 설정하여 CPU 렌더링으로 전환하여 해결함.
 
+<br />
 
 ## Installation Steps (구축 과정)
 
@@ -52,6 +56,7 @@ git submodule update --init --recursive --force
 - ubuntu.sh 스크립트를 활용하여 툴체인 자동 설치
 - Gazebo Classic 수동 설치 및 필수 Python 패키지 의존성 해결
 
+<br />
 
 ## Result (결과)
 ```bash
